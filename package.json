@@ -1,0 +1,29 @@
+{
+  "name": "portfoliowebsite",
+  "version": "1.0.0",
+  "description": "Hlumisa Mazomba's Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmazomba/hmazomba.github.io.git"
+  },
+  "keywords": [
+    "javascript",
+    "portfolio",
+    "sass",
+    "html5",
+    "css"
+  ],
+  "author": "Hlumisa Mazomba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hmazomba/hmazomba.github.io/issues"
+  },
+  "homepage": "https://github.com/hmazomba/hmazomba.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
