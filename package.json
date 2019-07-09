@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Hlumisa Mazomba's Portfolio Website",
   "main": "index.js",
+  "homepage": "https://hmazomba.github.io/personalwebsite",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hmazomba/hmazomba.github.io.git"
+    "url": "git+https://github.com/hmazomba/personalwebsite.git"
   },
   "keywords": [
     "javascript",
@@ -20,10 +22,11 @@
   "author": "Hlumisa Mazomba",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hmazomba/hmazomba.github.io/issues"
+    "url": "https://github.com/hmazomba/personalwebsite/issues"
   },
-  "homepage": "https://github.com/hmazomba/hmazomba.github.io#readme",
+  "homepage": "https://github.com/hmazomba/personalwebsite#readme",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0"
   },
   "devDependencies": {
