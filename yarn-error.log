@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add --dev @fortawesome/fontawesome-free
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\hmazo\AppData\Local\Microsoft\WindowsApps;C:\Users\hmazo\AppData\Roaming\npm;C:\Users\hmazo\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\hmazo\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.4.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\hmazo\Projects\hmazomba.github.io\node_modules\node-sass\vendor\win32-x64-72\binding.node'
+
+npm manifest: 
+  {
+    "name": "portfoliowebsite",
+    "version": "1.0.0",
+    "description": "Hlumisa Mazomba's Portfolio Website",
+    "main": "index.js",
+    "scripts": {
+      "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hmazomba/hmazomba.github.io.git"
+    },
+    "keywords": [
+      "javascript",
+      "portfolio",
+      "sass",
+      "html5",
+      "css"
+    ],
+    "author": "Hlumisa Mazomba",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hmazomba/hmazomba.github.io/issues"
+    },
+    "homepage": "https://github.com/hmazomba/hmazomba.github.io#readme",
+    "dependencies": {
+      "node-sass": "^4.12.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
